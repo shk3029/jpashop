@@ -1,0 +1,23 @@
+spring:
+
+# SpringBoot 에서는 이거 다 없어도 됨 (별도의 설정이 없으면 memory 모드로 돌림)
+
+#  datasource:
+#    url: jdbc:h2:mem:test
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        show_sql: true
+#        format_sql: true
+#    database: h2
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
