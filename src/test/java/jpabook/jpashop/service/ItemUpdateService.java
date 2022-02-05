@@ -13,7 +13,7 @@ import javax.persistence.EntityManager;
 public class ItemUpdateService {
 
     @Autowired
-    EntityManager em;
+    private EntityManager em;
 
     @Test
     public void updateTest() throws Exception {
